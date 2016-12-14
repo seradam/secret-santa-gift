@@ -92,6 +92,7 @@ class Event {
                     "2. Úgy érzed, ezt muszáj még egyszer kipróbálnod, és visszaugrasz az örvénybe.");
             int n = reader.nextInt();
             if (n == 1) {
+                balint.canplay = false;
                 System.out.println("Miközben visszafele sétálsz, szembejön egy srác, aki pont úgy néz ki mint te," +
                         " ráadásul a tegnapi ruhád van rajta.\nEkkor váratlanul összeomlott az univerzum.\n" +
                         "Na ezt jól megcsináltad bazmeg!");
